@@ -1,0 +1,125 @@
+/* header */
+h1 {    
+    background-color: #c7cbba;
+}
+
+/* nav menu for header */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #967d70;
+  }
+  
+  li {
+    float: left;
+    border-right:2px solid #d5e1cb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #abc496;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+
+/* grid for body */
+
+.body-one {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    font-size: 18px;
+    background-size: auto;
+    background-color: #c7cbba;
+    padding: 10px;
+    text-align: left;
+    margin: 10px;
+
+}
+.fun-facts {
+    font-size: 18px;
+    background-color: #b7a093;
+    text-align: center;
+    padding: 100px;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 15px;
+    background-color: #b7a093;
+    color: black;
+    text-align: center;
+ }
+
+ 
+ /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 2px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 2px; /* Add a top margin */
+  margin-bottom: 2px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #b69888;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #967d70;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #967d70;
+  float: left;
+  width: 162px;
+}
+
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 5px;
+  text-align: center;
+}
